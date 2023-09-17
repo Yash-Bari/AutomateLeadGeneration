@@ -1,0 +1,28 @@
+**For Python Script**
+   _(LeadGen_pyScript.py)_
+
+1.Install all dependencies.
+2.Run the script.
+3.Enter the location for industry (e.g. Pune).
+4.Enter the name of industry (e.g. Dentists)
+5.Enter number of data you want to scrape (e.g. 1)
+6.You can check the google sheet : https://docs.google.com/spreadsheets/d/1l9EBHmvZjB1K0V-QaNmATlG3A83FUjFxqaAEzRbXVDU/edit?usp=sharing
+
+Note: 1.I use free openai api key so there may some LimitExceeded error or Global timeout errors, so ignore it.
+         2.Try less than 3 data to scrape it can scrape all resulted data but while generating mail it will show Global timeout error, due to free openai api key so ignore it.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**For Web App**
+  __(webapp.py)__
+
+1.Install all dependencies.
+2.Run the web app by giving command in terminal : streamlit run webapp.py
+3.Enter the location for industry (e.g. Pune).
+4.Enter the name of industry (e.g. Dentists)
+5.Enter number of data you want to scrape (e.g. 1)
+6.You can check the google sheet : https://docs.google.com/spreadsheets/d/1l9EBHmvZjB1K0V-QaNmATlG3A83FUjFxqaAEzRbXVDU/edit?usp=sharing
+
+Note: 1.I use free openai api key so there may some LimitExceeded error or Global timeout errors, so ignore it.
+      2.Try less than 3 data to scrape it can scrape all resulted data but while generating mail it will show Global timeout error, due to free openai api key so ignore it.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                        
+                                                                                         **Thank You!**
