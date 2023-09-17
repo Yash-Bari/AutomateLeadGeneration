@@ -1,5 +1,6 @@
 streamlit
-oauth2client 
+gspread
+oauth2client
 openai
 playwright
 pandas
