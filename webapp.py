@@ -155,7 +155,7 @@ def append_to_google_sheets(gc, business_list, spreadsheet_key):
 
 # Part 2: Personalized Email Generation using ChatGPT
 
-openai.api_key = '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'
+openai.api_key = 'your_api_key'
 
 def generate_personalized_email_content(lead, location, business_type):
     response = openai.Completion.create(
@@ -200,11 +200,11 @@ def app():
     location = st.text_input("Enter the location:")
     business_type = st.text_input("Enter the type of business:")
     total = st.number_input("Enter the total number of listings to scrape:", min_value=1, step=1)
-    spreadsheet_key = '1l9EBHmvZjB1K0V-QaNmATlG3A83FUjFxqaAEzRbXVDU'  # Replace with your Google Sheets key
+    spreadsheet_key = 'yor_key'  # Replace with your Google Sheets key
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    smtp_username = 'yashbari99@gmail.com'
-    smtp_password = 'nglfaaeitnpgnvaz'
+    smtp_username = 'username'
+    smtp_password = 'password'
 
     if st.button("Scrape and Send Emails"):
         # Part 1: Data Scraping and Google Sheets Integration
